@@ -1,0 +1,19 @@
+@mixin bg_image_center($img,$size:contain) {
+    background-image: url($img);
+    background-repeat: no-repeat;
+    background-size: $size;
+    background-position: center;
+}
+@mixin ellipsis($num) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: box;
+    display: -webkit-box;
+    -webkit-line-clamp: $num;
+    -webkit-box-orient: vertical;
+}
+@mixin flex($justify,$align:center) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}

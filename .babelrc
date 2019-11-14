@@ -1,0 +1,12 @@
+{
+    "presets": ["@vue/app", ["@babel/preset-env", { "modules": false }]],
+    "plugins": [
+      [
+        "component",
+        {
+          "libraryName": "fe-cube-plugin",
+          "styleLibraryName": "~node_modules/bes-ui/static"
+        }
+      ]
+    ]
+  }

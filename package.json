@@ -1,0 +1,43 @@
+{
+  "name": "npm-babel-uitest",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "style": "dist/index.css",
+  "files": [
+    "lib",
+    "dist",
+    "static"
+  ],
+  "keywords": [
+    "table"
+  ],
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name index --dest dist lib/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "echarts": "4.2.1",
+    "lodash": "^4.17.11",
+    "vue-easytable": "^1.7.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-component": "^1.1.1",
+    "core-js": "^2.6.9",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

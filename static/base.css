@@ -1,0 +1,38 @@
+.cube-common-box, .cube-common-box *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none; 
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica,Avenir,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    user-select:none;  
+}
+.cube-common-box a {
+    text-decoration: none;
+}
+
+.cube-common-box li {
+    list-style: none;
+}
+
+/* app */
+@media (max-width: 414px) {
+    .cube-common-box {
+        font-size: 10px;
+    }
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .cube-common-box {
+        font-size: 14px;
+    }
+}
+
+/* pc */
+@media (min-width: 1024px) {
+    .cube-common-box {
+        font-size: 16px;
+    }
+}
